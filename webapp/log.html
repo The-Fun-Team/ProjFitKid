@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	
+    <title>FitKid</title>
+	
+	<link rel="stylesheet" type="text/css"  href="vendor/bootstrap/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="js/submitLog.js"></script>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">FitKid</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#" >Log</a></li>
+        <li><a href="#">Awards</a></li>
+        <li><a href="suggestions.html">Suggestions</a></li>
+        
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="row">
+<form name="proteinForm">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" style="background-image: url(http://wilmingtonperformancelab.com/wp-content/uploads/2013/01/high-protein-food.jpg)">
+        <h3 style="text-align:center; color:white">Protein</h3>
+        <div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Eggs</span>
+  			<input type="number" name="eggs" min="0" placeholder="How many servings?" class="form-control" aria-describedby="basic-addon1" >
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Lean Meat / Fish</span>
+  			<input type="number" name="leanMeatFish" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1" >
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Red Meat</span>
+  			<input type="number" name="redMeat" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Beans / Nuts</span>
+  			<input type="number" name="beansNuts" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+    </div>
+  </div>
+ </form>
+  
+ <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" style="background-image: url(https://sp.yimg.com/ib/th?id=HN.607991898634584341&pid=15.1&P=0)">
+        <h3 style="text-align:center; color:white">Fruits & Veggies</h3>
+        <div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Fresh or Frozen Fruit</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Fresh or Frozen Veggies</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Canned Fruit / Veggies</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Fruit / Veggie Smoothie</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div> 		
+    </div>
+  </div>
+
+<div class="col-sm-6 col-md-4">
+    <div class="thumbnail" style="background-image: url(http://www.noshtopia.com/images/2008/06/30/dairy.jpg)">
+        <h3 style="text-align:center; color:white">Dairy</h3>
+        <div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Milk / Soymilk</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Yogurt</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Cheese</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Ice Cream / Milkshake</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div> 		
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" style="background-image: url(http://www.veggienumnum.com/wp-content/themes/thesis_16/images/page%20images/carbohydrates.jpg)">
+        <h3 style="text-align:center; color:white">Carbohydrates</h3>
+        <div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Bread / Pasta / Rice</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Potatoes</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Cereal</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Muffins, Rolls, etc.</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div> 		
+    </div>
+  </div>
+  
+   <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" style="background-image: url(http://www.craigbailey.net/wp-content/uploads/the-junk-food-remedy.jpg)">
+        <h3 style="text-align:center; color:black">Junk food</h3>
+        <div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Chips</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Fast food</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Soda / Candy</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Donuts / Pastries</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many servings?" aria-describedby="basic-addon1">
+  		</div> 		
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" style="background-image: url(http://graphics8.nytimes.com/images/2012/08/01/science/01wellphysed/01wellphysed-tmagArticle.jpg)">
+        <h3 style="text-align:center; color:black">Excercise</h3>
+        <div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Arobic Exercise (Swimming, Running, Jump rope, etc.)</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many minutes?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Weight Bearing (Push ups, sit ups, weights, etc.)</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many minutes?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">
+    		<span class="input-group-addon" id="basic-addon2">Walking or Stairs</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many minutes?" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group" style="padding-bottom:10px">	
+  			<span class="input-group-addon" id="basic-addon2">Other Exercise</span>
+  			<input type="number" min="0" class="form-control" placeholder="How many minutes?" aria-describedby="basic-addon1">
+  		</div> 		
+    </div>
+  </div>
+
+</div>
+
+<div class="btn-group" role="group" aria-label="...">
+ 	<button type="button" class="btn btn-default" value="logFoodExercise"  onclick="log()"
+ 	>Continue and Show My Progress!</button>
+</div>
+
+<div id="Result"></div>
+
+  
+</body>
+</html>
